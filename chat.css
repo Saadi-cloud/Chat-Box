@@ -1,0 +1,42 @@
+body{
+	background: #E5E5E5;
+	font-family: 'Poppins', sans-serif;
+}
+.icon{
+	background-image: url(images/Vectors.jpg);
+	background-repeat: no-repeat;
+	
+}
+.margin{
+    
+    margin-left: 23rem!important;
+}
+@media screen and (max-width: 1024px) {
+  .margin {
+   margin-left: 10rem!important;
+  }
+}
+@media screen and (max-width: 425px) {
+	.margin{
+		margin-left: 2rem!important;
+	}
+}
+@media screen and (max-width: 992px) {
+	.margin{
+		margin-left: 0.5rem!important;
+	}
+}
+.comment{
+	background: rgba(248, 249, 251, 1);
+	padding: 12px;
+	border-radius: 5px;
+	
+}
+.img-positin{
+    position: absolute;
+}
+.img-comm{
+    position: absolute;
+    padding-top: 27px;
+    padding-right: 16px;
+}
